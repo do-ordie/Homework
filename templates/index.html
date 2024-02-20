@@ -7,12 +7,15 @@
             <h1>My first twiter<h1>
         </header>
             <form action= "/twit" method="POST" class="form-contact">
-                <p><label>name: </label><input type="text" name="name" value=""requied/>
-                <p><label>twit: </label><input type="text" name="twit" value=""requied/>
-                <p><label>Message:</label>
-                <p><textarea name="messsage" rows=7 cols=40></textarea>
+                <p><label>Username: </label><input type="text" name="name" value=""requied/>
+                <p><label>Twits:</label>
+                <p><textarea name="twit" rows=7 cols=40></textarea>
                 <p><input type="submit" value="SPEND"/>
+                <p><label>Delet: </label><input type="text" name="delet" value=""/>
             </form>
+            <header>
+                <h1>All the twits<h1>
+            </header>
         <footer>
             <h1>{{list}}</h1>
         </footer>

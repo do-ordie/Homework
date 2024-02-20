@@ -2,5 +2,19 @@
 
 {% block content %}
 {{ super() }}
-<p>all rigt 
+    <body>
+        <header>
+            <h1>My first twiter<h1>
+        </header>
+            <form action= "/twit" method="POST" class="form-contact">
+                <p><label>name: </label><input type="text" name="name" value=""requied/>
+                <p><label>twit: </label><input type="text" name="twit" value=""requied/>
+                <p><label>Message:</label>
+                <p><textarea name="messsage" rows=7 cols=40></textarea>
+                <p><input type="submit" value="SPEND"/>
+            </form>
+        <footer>
+            <h1>{{list}}</h1>
+        </footer>
+    <body>
 {% endblock %}

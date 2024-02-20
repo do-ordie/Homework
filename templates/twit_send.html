@@ -4,10 +4,15 @@
     <title> My - {{ title }} </title>
 </head>
 <body>
-    <header>Text</header>
-    <form method="POST" action="/twit">
-        <input class="name" name="name" placeholder="Введите ваше имя" />
-    </form>
-    <footer>{{list}}</footer>
+    <header>
+        <h1>My first twiter<h1>
+    </header>
+        <form method="POST">
+            <input class="name" name="name" placeholder="Введите ваше имя">
+            <input class="twit" name="twit" placeholder="Введите ваш твит">
+        </form>
+    <footer>
+        <h1>{{list}}</h1>
+    </footer>
 </body>
 </html>

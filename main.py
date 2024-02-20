@@ -3,7 +3,8 @@ from model.user import User
 
 app = Flask(__name__)
 
-list=[]
+word=dict()
+
 
 @app.route('/')
 def hello_world():
@@ -12,11 +13,12 @@ def hello_world():
 @app.route('/twit', methods=['POST', 'GET'])
 def create_twit():
     if request.method == 'POST':
-      name = request.form['name']
-      list.append(name)
-      return render_template('twit_send.html',list= list)
+      name = request.form.get('name')
+      twit = request.form.get('twit')
+      word[name]=twit
+      return render_template('index.html', list=word)
     else:
-        return "Somewho"
+        return render_template('index.html')
     # print (name)
     # email = request.form['email']
     

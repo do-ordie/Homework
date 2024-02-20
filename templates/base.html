@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+{% block title -%}
+    {% if title %}
+        <title> My - {{ title }} </title>
+    {% else %}
+        <title>no motion</title>
+    {% endif -%}
+{% endblock -%}
+</head>
+<body>
+    <header>
+        {% block content -%}
+            <h1>Это — моя страница</h1>
+        {% endblock -%}
+    </header>
+</body>
+</html>

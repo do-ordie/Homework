@@ -1,8 +1,23 @@
-#  ***Mysait***
-## My new sait 
+#  **TWITER**
+
+Маленькое превью моего сайта.  
+![my gif](https://github.com/do-ordie/Homework/blob/main/photo/Twiter.gif)
+
+
+## О сайте
+Данный сайт написан на языке **Python** с использованием библиотек **Json** и **Jinja2** . И позволяет выполнить некотрые операции с постом: 
+  - [x] создать
+  - [x] прочитать
+  - [ ] изменить
+  - [x] удалить 
+  
+
+
+
+
 [tutorial по настройке Readme.md](https://www.youtube.com/watch?v=NXNf9aYTCZ0&t=1463s)
 
-![my gif](https://github.com/do-ordie/Homework/blob/main/photo/Twiter.gif)
+
 
 
 

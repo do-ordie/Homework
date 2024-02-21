@@ -1,3 +1,12 @@
+#  ***Mysait***
+## My new sait 
+[tutorial по настройке Readme.md](https://www.youtube.com/watch?v=NXNf9aYTCZ0&t=1463s)
+
+![my gif](https://github.com/do-ordie/Homework/blob/main/photo/Twiter.gif)
+
+
+
+
 Данный набо кода представляет из себя подобие блога. 
 Имеет две сущности: 1. User and Twit
 Пользователь может создать, прочитать, удалить и изменить код.
